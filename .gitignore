@@ -1,1 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
 
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+
+# Datasets and local data
+data/
+dataset/
+datasets/
+*.csv
+*.txt
+
+# Model and training outputs
+results/
+logs/
+wandb/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# OS files
+.DS_Store
+Thumbs.db
